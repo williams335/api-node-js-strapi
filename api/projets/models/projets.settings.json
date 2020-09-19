@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projets",
+  "info": {
+    "name": "projets"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Nom": {
+      "type": "text"
+    },
+    "success": {
+      "type": "date"
+    }
+  }
+}
